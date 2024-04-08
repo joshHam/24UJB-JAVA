@@ -8,7 +8,7 @@ public class ArrayCopyExample {
 		
 		for(int i=0; i<oldIntArray.length;i++) {
 			newIntArray[i] = oldIntArray[i];
-		}
+		}  
 
 		for(int i=0;i<newIntArray.length;i++) {
 			System.out.print(newIntArray[i] + " ");
