@@ -16,7 +16,7 @@ public class ComparePeratorExample {
 		char char1 = 'A';
 		char char2 = 'B';
 		boolean result4 = (char1 < char2);
-		System.out.println("result4 : " + result4);
+		System.out.println("result4 : " + result4);  
 
 	}
 
