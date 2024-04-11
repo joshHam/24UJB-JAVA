@@ -36,7 +36,7 @@ public class TextFieldTest2 {
 		
 		//actionPerformed메소드를 부르기 위해 addActionListener를 달아줌
 		
-		b.addActionListener(new ActionListener() {  
+		b.addActionListener(new ActionListener() {
 			@Override
 			public void actionPerformed(ActionEvent e) {
 				String inpId = id.getText();

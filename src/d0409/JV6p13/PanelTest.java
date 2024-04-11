@@ -15,16 +15,16 @@ public class PanelTest {
 
 	public PanelTest() {
 		f = new Frame("panel example");
-		ok = new Button("Àü¼Û");
-		cancel = new Button("»èÁ¦");
+		ok = new Button("ì „ì†¡ ");
+		cancel = new Button("ì‚­ì œ ");
 		tf1 = new TextField("Input...");
 		p = new Panel();
 	}
 
-	public void startFrame() {			//FrameÅ¬·¡½ºÀÇ ±âº»·¹ÀÌ¾Æ¿ô
-		f.add(tf1, BorderLayout.NORTH); //BorderLayout:ÇÑ¿µ¿ªÀ» ´Ù¼¸°³ÀÇ ¿µ¿ªÀ¸·Î ³ª´«°Í//
+	public void startFrame() {			//Frameí´ë˜ìŠ¤ì˜ ê¸°ë³¸ë ˆì´ì•„ì›ƒ
+		f.add(tf1, BorderLayout.NORTH); //BorderLayout:í•œì˜ì—­ì„ ë‹¤ì„¯ê°œì˜ ì˜ì—­ìœ¼ë¡œ ë‚˜ëˆˆê²ƒ////
 		p.setBackground(Color.green);
-		p.add(ok);						//FrameÅ¬·¡½ºÀÇ ±âº»·¹ÀÌ¾Æ¿ôÀºflowLayout
+		p.add(ok);						//Frameí´ë˜ìŠ¤ì˜ ê¸°ë³¸ë ˆì´ì•„ì›ƒì€flowLayout
 		p.add(cancel);
 		f.add(p, BorderLayout.CENTER);	//Panel
 
