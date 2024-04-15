@@ -9,3 +9,4 @@ public class Parent {
 		this.ssn = ssn;
 	}
 }
+ 
