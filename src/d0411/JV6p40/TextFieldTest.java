@@ -26,7 +26,7 @@ public class TextFieldTest implements WindowListener {
 		pwd.setEchoChar('*');
 
 		Button b = new Button("Login");
-		b.setSize(300, 50);
+		b.setSize(300, 100);
 		b.setLocation(100, 75);
 
 		b.addActionListener(new ActionListener() {

@@ -35,7 +35,6 @@ public class PanelTest {
 	public static void main(String[] args) {
 		PanelTest g = new PanelTest();
 		g.startFrame();
-
 	}
 
 }
