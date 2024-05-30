@@ -48,7 +48,7 @@ public class JTabbedPaneExample extends JFrame {
 		if(tab2Panel == null) {
 			tab2Panel = new JPanel();
 			JLabel jLabel = new JLabel();
-			jLabel.setIcon(new ImageIcon(getClass().getResource("../../img/guitar1.jpg")));
+			jLabel.setIcon(new ImageIcon(getClass().getResource("../../img/guitar.jpg")));
 			tab2Panel.add(jLabel);
 		}
 		return tab2Panel;

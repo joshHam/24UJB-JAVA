@@ -24,7 +24,7 @@ public class BoardWithFileInsertExample {
 			
 			//매개변수화된 SQL 문 작성
 			String sql = ""+
-			"INSERT INTO boards(bno, btitle, bcontent, bwriter, bdate, bfilename, bfiledata)"+
+			"INSERT INTO board(bno, btitle, bcontent, bwriter, bdate, bfilename, bfiledata)"+
 					"VALUES(SEQ_BNO.NEXTVAL,? ,?,?,SYSDATE,?,?)";
 			
 			//PreparedStatement 얻기 및 값 지정
